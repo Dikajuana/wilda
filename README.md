@@ -19,6 +19,7 @@
 ### TESTED ON OS 
 - UBUNTU 20
 - DEBIAN 10 ( Recomended )
+- OS versi lain belum coba
 ### Setup Server
 <pre><code>wget https://raw.githubusercontent.com/Dikajuana/wilda/refs/heads/will/setup_vpn_server.sh && chmod +x setup_vpn_server.sh && ./setup_vpn_server.sh</code></pre>
 
