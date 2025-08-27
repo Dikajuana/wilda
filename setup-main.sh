@@ -134,7 +134,7 @@ echo -e "\e[32mloading...\e[0m"
 clear
 
 # --- Definisi Variabel ---
-REPO="https://raw.githubusercontent.com/tdede914-creator/Red/refs/heads/ABSTRAK/"
+REPO="https://raw.githubusercontent.com/Dikajuana/wilda/refs/heads/will/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
