@@ -20,7 +20,7 @@ FIGLET_FILE="/usr/bin/figlet_text"
 if [[ -f "$FIGLET_FILE" ]]; then
     FIGLET_TEXT=$(cat "$FIGLET_FILE")
 else
-    FIGLET_TEXT="${FIGLET_TEXT:-SHL STORE}"
+    FIGLET_TEXT="${FIGLET_TEXT:-KobongVps}"
 fi
 
 # SYSTEM INFORMATION
@@ -314,7 +314,7 @@ echo -e " ${z}│$NC [${r}01${NC}]$grenbo SSH MENU$NC     ${z}│$NC [${r}06${NC
 echo -e " ${z}│$NC [${r}02${NC}]$grenbo VMESS MENU$NC   ${z}│$NC [${r}07${NC}]$grenbo AUTOREBOOT$NC    ${z}│$NC [${r}12${NC}]$grenbo BOT PANEL$NC${z}$NC"    
 echo -e " ${z}│$NC [${r}03${NC}]$grenbo VLESS MENU$NC   ${z}│$NC [${r}08${NC}]$grenbo INS. UDP      $NC${z}│$NC [${r}13${NC}]$grenbo SLOWDNS   $NC${z}$NC"   
 echo -e " ${z}│$NC [${r}04${NC}]$grenbo TROJAN MENU$NC${z}  │$NC [${r}09${NC}]$grenbo UPDATE SC $NC${z}    │$NC [${r}14${NC}]$grenbo SETTING  $NC${z}$NC"
-echo -e " ${z}│$NC [${r}05${NC}]$grenbo SHADOW MENU$NC  ${z}│$NC [${r}10${NC}]$grenbo NOOBZ MENU$NC    ${z}│$NC [${r}15${NC}]${grenbo} EDIT FIGLET$NC${z}$NC"
+echo -e " ${z}│$NC [${r}05${NC}]$grenbo SHADOW MENU$NC  ${z}│$NC [${r}10${NC}]$grenbo NOOBZvpn$NC    ${z}│$NC [${r}15${NC}]${grenbo} EDIT FIGLET$NC${z}$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e "       ───────────────────────────────────────────────${NC}"
 echo
